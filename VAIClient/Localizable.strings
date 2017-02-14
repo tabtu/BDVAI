@@ -1,0 +1,77 @@
+/* 
+   Localizable.strings
+   AudioClient
+ 
+   Created by Tab on Feb.13 2017
+ */
+
+// Voice Recongize
+"StringVoiceRecognitonInit" = "Initializing";
+"StringVoiceRecognitonPleaseSpeak" = "Speak Please";
+"StringVoiceRecognitonIdentify" = "Loading";
+"StringVoiceRecognitonSpeakAgain" = "Retry";
+"StringVoiceRecognitonRecordFinish" = "Finish";
+"StringConform" = "Comfirm";
+"StringCancel" = "Cancel";
+"StringFinish" = "Complete";
+
+// Error Code
+"StringVoiceRecognitonCantRecord" = "No Mic";
+"StringAudioSearchGetTokenFailed" = "Token Error";
+"StringAudioSearchNOMicrophonePermission" = "Mic Promition Error";
+"StringVoiceRecognitonInterruptRecord" = "Record Interapt";
+"StringVoiceRecognitonCantIdentify" = "Could not Recognize";
+"StringVoiceRecognitonNetWorkError" = "Network Error, Please Retry";
+"StringVoiceRecognitonNoNetWork" = "No Network";
+"StringVoiceRecognitonNetWorkTimeOut" = "Network Overtime";
+"StringVoiceRecognitonParseError" = "Server Decode Error";
+
+"StringVoiceRecognitonStatusError" = "Common Error";
+"StringVoiceRecognitonChangeNotAvailable" = "Mic is used by other process";
+"StringVoiceRecognitonException" = "View Library Error";
+"StringVoiceRecognitonNoSpeech" = "User do not speak";
+"StringVoiceRecognitonNoShort" = "Too Short";
+"StringVoiceRecognitonDefaultError" = "Other Error";
+"StringVoiceRecognitonTooLong" = "User Record Overtime";
+"StringVoiceRecognitonServerError" = "Server Return Error";
+
+"StringAudioSearchNoAPIKEY" = "No API KEY";
+"StringVoiceRecognitonNoDelegateMethods" = "No Delegate Methods";
+
+// Setting View
+"StringFinishSetting" = "Finish";
+"StringVRSetting" = "Voice Recogizion Setting";
+"StringRecoginitonResultContinuousShow" = "Continuous Results";
+"StringLibVersion" = "SDK Version: ";
+"StringVersion" = "Version: ";
+"StringPlayStartMusic" = "Start Music";
+"StringPlayEndMusic" = "End Music";
+"StringRecoginitonMode" = "Select Mode";
+"StringRecoginitonNLU" = "NLU Result";
+"StringLanguage" = "Target Language";
+"StringSaveVoiceLevelMeter" = "Listening Sound Level";
+"StringTheme" = "Theme";
+"StringClosedUIHintMusic" = "Tip Sound";
+"StringSectionTitleCommon" = "Common Setting";
+"StringSectionTitleNoUI" = "API Method Setting";
+"StringSectionTitleUI" = "View Setting";
+"StringSectionTitleVersion" = "Version";
+
+// LogView Sentence, Except System Check(Detection)
+"StringLogStatusNone" = "Free";
+"StringLogStatusPlayStartTone" = "Play Start Tone";
+"StringLogStatusPlayStartToneFinish" = "Play Start Tone Finish";
+"StringLogStatusStartWorkIng" = "Sound Recording";
+"StringLogStatusStart" = "Detect users began to speak";
+"StringLogStatusPlayEndTone" = "Play End Tone";
+"StringLogStatusPlayEndToneFinish" = "Play End Tone Finish";
+"StringLogStatusSentenceFinish" = "Complete sentence recognition input modes, and returns the result";
+"StringLogStatusFinish" = "Speech recognition features, the server returns the correct result";
+"StringLogStatusChangeAvailable" = "Recording equipment available";
+"StringLogStatusEnd" = "Local audio collection to a close, waiting for the results to return and end recording";
+"StringLogStatusNetWorkStatusStart" = "Network Start";
+"StringLogStatusNetWorkStatusEnd" = "Network Finish";
+"StringLogStatusNetWorkStatusErorr" = "Recognize Error";
+"StringLogStatusNetWorkStatusCancel" = "User Cancel";
+"StringLogStatusNetWorkStatusDefaultErorr" = "Error";
+"StringLogVoiceLevel" = "Current Voice Level";
